@@ -1,2 +1,2 @@
 # Calendar_Web
-Python || Django || Html || Css
+Python || Django || HTML || CSS
