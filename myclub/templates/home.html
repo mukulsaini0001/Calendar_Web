@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center class="centered-content">
+        <h1>Hello {{ name }}! Events For {{ month }} {{ year }}</h1>
+        <br/><br/>
+        As of {{ time }}
+        {{ cal | safe}}
+        <br/><br/><br/><br/>
+        Copyright (c) {{ current_year }}
+    </center>
+</body>
+</html>
